@@ -1,7 +1,5 @@
-Design Choices
---------------
-Justification of my sollution can be found in the comments together with java methods.
+# Database management system
 
-Most of the code for the solution is in the schema.sql file, while the java code is used mostly for interaction with the database and it also uses the queries that sort the results.
-I have used FUNCTIONS and VIEWS within postgres to make my sollution reliable and easy to use. I handle errors in the java code using try-catch blocks and close prepared statemets and result sets after use. 
-My program successfully handles all the test cases provided in the assignment. And also handles the error cases like invalid inputs and invalid queries. If error occurs, the state of the database is not changed.
+The majority of the solution's code is in the schema.sql file, with the java code mainly used for database interaction and executing sorted queries. To ensure a reliable and user-friendly solution, I employed FUNCTIONS and VIEWS in PostgreSQL. In the java code, I use try-catch blocks to handle errors and ensure that prepared statements and result sets are properly closed after use.
+
+I'm proud to say that my program successfully passed all of the provided test cases, including scenarios with invalid inputs and queries. In cases where errors occur, the database remains unchanged. Overall, I believe that my solution is both robust and effective.
